@@ -20,7 +20,7 @@ const [show, setShow] = useState(true)
      <div className="App">
       <center>
         <h3>Store Items</h3>
-        <button id="bt1" onClick={()=>setShow(!show)}>{show?"Minimize":"Maximize"}</button>
+        <button id="bt1" onClick={()=>setShow(!show)}>{show?"Hide":"Show"}</button>
       </center>
      <ul>
       {show && tasks.map((task)=>(

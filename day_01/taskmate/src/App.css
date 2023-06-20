@@ -12,6 +12,8 @@ ul{
   border: 1px solid #0000003c;
   border-radius: 15px;
   padding: 10px;
+  height: 450px;
+  overflow:scroll;
 
 }
 ul li{
